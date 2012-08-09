@@ -18,5 +18,30 @@ for(i=0; i<months.length; i++) {
 }
 
 document.write("<br/>");
-document.write("Miesiąc o najdłuższej nazwie to: " + longestName)    
+document.write("Miesiąc o najdłuższej nazwie to: " + longestName)
+
+//Uproszczona zmiana formatu daty
+ 
+var shortDateString = "2012-01-01"    
+
+var dateArr = shortDateString.split("-")
     
+if(dateArr.length != 3) {
+    alert("Niepoprawny format daty");
+    return;
+}
+
+var monthIndex = parseInt(dateArr[1]);
+
+if(typeof monthIndex != 'number' || isNaN(monthIndex)) {
+    alert("Niepoprawny numer miesiąca");
+    return;
+}
+    
+var longDateString = dateArr[2] + " " + months[monthIndex] + " " + dateArr[0]
+    
+document.write("<br/>")
+document.write("Skrócona data: " + shortDateString);
+document.write("<br/>")
+document.write("Pełna data: " + longDateString);
+    ​
