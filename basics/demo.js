@@ -31,7 +31,7 @@ if(dateArr.length != 3) {
     return;
 }
 
-var monthIndex = parseInt(dateArr[1]);
+var monthIndex = parseInt(dateArr[1], 10);
 
 if(typeof monthIndex != 'number' || isNaN(monthIndex)) {
     alert("Niepoprawny numer miesiąca");
@@ -44,4 +44,5 @@ document.write("<br/>")
 document.write("Skrócona data: " + shortDateString);
 document.write("<br/>")
 document.write("Pełna data: " + longDateString);
-    ​
+    
+​
