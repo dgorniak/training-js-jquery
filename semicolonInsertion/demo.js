@@ -1,5 +1,6 @@
 function fun1() {
-    return {
+    return 
+    {
         capacity: 5
     }
 }
@@ -12,4 +13,4 @@ function fun2() {
 
 
 document.write("Fun1: " + fun1() + "<br/>");
-document.write("Fun2: " + fun2());​
+document.write("Fun2: " + fun2());
