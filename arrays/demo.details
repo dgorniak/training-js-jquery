@@ -1,0 +1,11 @@
+Everything before the line containing only '---' will not be parsed
+
+---
+ name: Arrays demo
+ authors:
+   - Dawid Górniak
+ resources:
+ normalize_css: no
+ ...
+
+Everything after the line containing only '...' will not be parsed
