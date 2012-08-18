@@ -1,0 +1,25 @@
+div#header {
+ margin: 1em;
+}
+
+div#header h1 {
+ font-size: 3em;
+}
+
+div#content {
+  margin: 1em;
+}
+
+div#content h2 {
+  font-size: 2em;
+  margin-bottom: 0,3em;
+}
+
+div#footer {
+  margin: 1em;
+}
+
+p.error {
+  color: #D20A0A;
+}
+​
