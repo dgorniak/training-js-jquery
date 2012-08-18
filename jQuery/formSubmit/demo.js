@@ -1,3 +1,6 @@
+var Examples = {
+}
+
 $(document).ready(function() { 
   $('#register-form').submit(function() {
       var email = $("input", this).val();
@@ -5,6 +8,3 @@ $(document).ready(function() {
       return false;
   });
 });
-
-var Examples = {
-}
