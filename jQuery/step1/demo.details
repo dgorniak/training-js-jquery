@@ -1,0 +1,12 @@
+Everything before the line containing only '---' will not be parsed
+
+---
+ name: jQuery training step1
+ description: First example with form submit 
+ authors:
+   - Dawid Górniak
+ resources:
+ normalize_css: no
+ ...
+
+Everything after the line containing only '...' will not be parsed
