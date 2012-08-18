@@ -1,0 +1,12 @@
+Everything before the line containing only '---' will not be parsed
+
+---
+ name: jQuery training step4
+ description: Added classes modification
+ authors:
+   - Dawid Górniak
+ resources:
+ normalize_css: no
+ ...
+
+Everything after the line containing only '...' will not be parsed
