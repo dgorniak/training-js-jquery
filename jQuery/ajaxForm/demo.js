@@ -4,8 +4,9 @@ var Examples = {
     
     validateRegisterForm : function() {
       var email = $("input#email").val();  
-        
-      if(email.length === 0 || (email.indexOf("@") < 0)) {
+      var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;            
+
+      if(reg.test(email)==false) {
         var errorsDiv = $("#register-form .validation-errors");
         errorsDiv.append("<p class='error'>Adres email jest niepoprawny</p>");
         
