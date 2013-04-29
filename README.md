@@ -1,4 +1,4 @@
-training-js-jquery
+﻿training-js-jquery
 ==================
 
-Materiały szkoleniowe na potrzeby szkolenia JavaScript + jQuery
+Materiały szkoleniowe na potrzeby szkolenia JavaScript + jQuery.
