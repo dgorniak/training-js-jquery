@@ -14,4 +14,4 @@ for (number in ints) {
         document.write("<br/>");
         document.write("\"" + number + "\"" + " : " + ints[number]);
     }
-}​
+}
